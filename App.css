@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  /* background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/hexagon-wallpaper_YDF402CFOK.jpg");
+   display: flex;
+   background-repeat: no-repeat;
+   background-size: cover; */
+   background-image: url(https://images.pexels.com/photos/355853/pexels-photo-355853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   background-size: cover;
+}
+#tti{
+  text-align: center;
+  border-radius: 10px;
+  padding-right: 89px;
+  padding-left: 69px;
+  font-weight: 900;
+ color: black;
+  background-color: blanchedalmond;
+}
+#bo{
+/* position: absolute;
+ top: 200px;
+ left: 500px; */
+ display: block;
+ padding: 136px;
+ padding-left: 433px;
+}
+#addtodo{
+  position: relative;
+  left: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: larger;
+  background-color: #FD6585;
+  color: whitesmoke;
+}
+.deletbut{
+  border: none;
+  margin: 0;
+  background-color: transparent;
+  position: relative;
+  left: 15x;
+}
+.deletbut1{
+  border: none;
+  margin: 0;
+  background-color: transparent;
+  position: relative;
+  left: 12px;
+}
+.bro{
+  border: none;
+  border-bottom: 1px solid goldenrod;
+  
+  width: 444px;
+    right: 22px;
+}
+h6{
+  word-wrap: break-word ;
+  font-weight: 900;
+}
+.savebut{
+  border: none;
+  margin: 0;
+  background-color: transparent;
+ 
+}
+.edit{
+  outline: 2px;
+  background: rgb(255, 233, 111);
+  border-radius: 10px;
+}
+.fa-regular{
+  color: green;
+}
+.fa-trash-can{
+  color: red;
+}
+.fa-pencil{
+  color: blue;
+}
+.badge{
+  position: absolute;
+  left: 364px;
+}
+.badge1{
+  position: absolute;
+  left: 400px;
+}
+.dd{
+  background: bisque;
+  border-radius: 8px;
+  padding: 6px;
+  color: black;
+}
+h1{
+  position: relative;
+  bottom: 200px;
+  left: 140px;
+  top: -30px;
+    font-family: 'Pacifico', 'cursive';
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    color:#FD6585;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+}
